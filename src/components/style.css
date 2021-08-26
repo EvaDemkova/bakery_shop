@@ -1,0 +1,101 @@
+.homepage {
+  margin: 5% 10%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.homepage > div {
+  text-align: center;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 200px;
+}
+
+.item-1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item-2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item-3 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item-4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.item-5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item-6 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.item-7 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.item-10 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.hp-img-1 {
+  background: url("../img/products/hp.jpg") no-repeat;
+  background-size: cover;
+}
+
+.hp-img-2 {
+  background: url("../img/products/austin-ban-IS6RwpuEJpY-unsplash.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.hp-img-3 {
+  background: url("../img/products/nick-karvounis-jN_M0McVNeI-unsplash.jpg")
+    no-repeat;
+
+  background-size: cover;
+}
+
+.hp-img-4 {
+  background: url("../img/products/nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.hp-img-5 {
+  background: url("../img/products/orlova-maria-oWtV-CQcs1o-unsplash.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us,
+.products,
+.our-story,
+.opening-hours,
+.contact-us {
+  background-color: rgb(233, 233, 233);
+}
