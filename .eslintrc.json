@@ -13,6 +13,7 @@
     "react/jsx-uses-react": "warn",   
     "react/jsx-uses-vars": "warn", 
     "react/jsx-no-undef": "off", 
-    "no-undef": "warn"
+    "no-undef": "warn", 
+    "react/no-unescaped-entities": [2, { "forbid": [">", "}"] }]
   }
 }
