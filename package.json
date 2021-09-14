@@ -54,10 +54,11 @@
 		"webpack-cli": "^4.7.2"
 	},
 	"lint-staged": {
-		"*.{js,ts,tsx}": [
-			"eslint --fix"
-		],
-		"*.{js,css,md}": "prettier --write"
+		"*.{js,ts,tsx, css, md}": [
+			"eslint --fix", 
+			"prettier --write", 
+			"git add"
+		]
 	},
 	"husky": {
 		"hooks": {
