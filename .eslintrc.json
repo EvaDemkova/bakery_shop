@@ -12,6 +12,7 @@
   "rules": {
     "react/jsx-uses-react": "warn",   
     "react/jsx-uses-vars": "warn", 
-    "react/jsx-no-undef": "off"
+    "react/jsx-no-undef": "off", 
+    "no-undef": "warn"
   }
 }
