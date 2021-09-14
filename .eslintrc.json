@@ -1,23 +1,17 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "eslint:recommended",
-        // "plugin:react/recommended",
-        "prettier"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 12,
-        "sourceType": "module"
-    },
-    "plugins": ["react"],
-    "rules": {
-        "no-process-env": "off",
-        "no-undef": "warn"
-    }
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-uses-react": "warn",   
+    "react/jsx-uses-vars": "warn", 
+    "react/jsx-no-undef": "off"
+  }
 }
