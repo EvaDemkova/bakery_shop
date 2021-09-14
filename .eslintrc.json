@@ -4,7 +4,7 @@
         "es2021": true
     },
     "extends": [
-        // "eslint:recommended",
+        "eslint:recommended",
         // "plugin:react/recommended",
         "prettier"
     ],
@@ -15,12 +15,9 @@
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
+    "plugins": ["react"],
     "rules": {
-        "no-process-env": "off", 
+        "no-process-env": "off",
         "no-undef": "warn"
-
     }
 }
