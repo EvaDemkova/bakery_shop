@@ -4,8 +4,9 @@
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        // "eslint:recommended",
+        // "plugin:react/recommended",
+        "prettier"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -18,5 +19,8 @@
         "react"
     ],
     "rules": {
+        "no-process-env": "off", 
+        "no-undef": "warn"
+
     }
 }
